@@ -1,7 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
+Student Name:  Daniel Chmielewski
+Sudent Email:  dachmiel@syr.edu
 
 ## Instructions
 
@@ -23,3 +23,10 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+There were many challenges that I faced with this assigment. For one, the tests for apicalls.py were all showing as passing but after accidentally using up my API quota by repeatedly running the tests for test_apicalls.py, it now shows that they are failing. 
+
+Moreover, I kept getting the following error message: "requests.exceptions.HTTPError: 403 Client Error: FORBIDDEN for url: https://cent.ischool-iot.net/api/google/places/details?place_id=ChIJq3w1Wn_x2YkR9HofEc9puio" when running the streamlit for assignment_etl.py and gave some trouble with the sentiment cache files.
+
+As a result, I had to resort to using the paths for cache files from the solution folder for assignment_etl.py. Using these changes, I was able to get all tests to pass.
+
+Despite these challenges, I was also able to learn a lot about creating ETL pipelines and creating functions that were able to call API's.
